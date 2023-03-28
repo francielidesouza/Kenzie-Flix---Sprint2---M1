@@ -1,0 +1,110 @@
+.full-container {
+    position: relative;
+    width: 1300px;
+    height: 800px;
+    background: #000000;
+    border-radius: 8px;
+    box-sizing: border-box;    
+    color: #ffffff;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.full-container figure {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.full-container h1 {    
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    text-align: center;
+}
+
+.list-users{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.user-card{
+    border-radius: 8px;
+    width: 160px;
+    opacity: 0.5;
+}
+
+.user-card:hover{
+    opacity: 100;
+}
+
+.image-card{
+    border-radius: 8px;
+    height: 160px;
+    width: 160px;   
+    margin: 3px; 
+    object-fit: cover;
+}
+
+.image-card:hover{
+    border-radius: 8px;
+    border: 3px solid #ffffff;
+    opacity: 100;
+}
+
+.image-card img{
+    border-radius: 8px;
+    height: 157px;
+    width: 157px;    
+    object-fit: cover;   
+}
+
+.image-empty{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+
+    height: 160px;
+    width: 160px;    
+    border-radius: 8px;
+    background-color: #333333;
+}
+
+.image-empty:hover{
+    border: 3px solid #ffffff;
+    opacity: 100;
+}
+
+
+.full-container ul li p{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    text-align: center;
+    margin-top: 20px;    
+}
+
+.full-container button{
+    opacity: 0.6; 
+    border-radius: 5px;
+    border: 3px solid #ffffff;
+    height: 40px;
+    width: 165px;
+
+    background-color: #000000;
+    color: #ffffff;
+
+    margin-bottom: 60px;
+}
+
+.full-container button:hover{
+    border-radius: 8px;
+
+    background-color: #ffffff;
+    color: #000000;
+    opacity: 100;
+}
